@@ -17,7 +17,7 @@ const getTheFizz = (ev) => {
             } else if (i % 5 == 0) { // Divisible by both
                 domString = '<div class="buzz">buzz</div>'
             } else { // None
-                domString = `<div>${i}</div>`;
+                domString = `${i}`;
             }
             el.innerHTML = domString
             el.addEventListener('click', ev => {
