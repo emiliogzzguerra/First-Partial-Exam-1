@@ -1,0 +1,21 @@
+.image {
+    width: 100px;
+}
+
+@media only screen and (min-width: 400px) {
+    .image {
+        width: 200px;
+    }   
+}
+
+@media only screen and (min-width: 700px) {
+    .image {
+        width: 300px;
+    }   
+}
+
+@media only screen and (min-width: 900px) {
+    .image {
+        width: 400px;
+    }   
+}
