@@ -77,8 +77,10 @@ label, h3{
   
   .fizz, .fizzbuzz {
     border: 4px solid green;
+    height: -webkit-fill-available;
   }
   
   .buzz, .fizzbuzz {
     background-color: #D5F5E3;
+    height: -webkit-fill-available;
   }
